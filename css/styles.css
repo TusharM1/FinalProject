@@ -1,3 +1,11 @@
+/* CSS RESET */
+* {
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
 body {
 	background: ghostwhite;
 	padding: 5% 30%;
@@ -14,6 +22,7 @@ body {
 }
 
 #nav-bar {
+	background: lightgray;
 	padding: 0;
 	display: flex;
 	justify-content: center;
@@ -78,4 +87,11 @@ p {
 
 .references {
 	justify-content: normal;
+}
+
+#micro_reviews {
+	position: absolute;
+	width: 20%;
+	top: 200px;
+	left: 30px;
 }
