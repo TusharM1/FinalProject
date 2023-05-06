@@ -105,3 +105,12 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+.opening_image {
+	width: 100%;
+}
+
+iframe {
+	margin: 0 auto;
+	display: block;
+}
